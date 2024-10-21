@@ -1,0 +1,22 @@
+{
+  "name": "vitepress-notice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "author": "gbm666",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vitepress": "^1.0.0-rc.38"
+  },
+  "dependencies": {
+    "busuanzi.pure.js": "^1.0.3",
+    "markdown-it-custom-attrs": "^1.0.2"
+  }
+}
