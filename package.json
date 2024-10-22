@@ -18,5 +18,8 @@
   "dependencies": {
     "busuanzi.pure.js": "^1.0.3",
     "markdown-it-custom-attrs": "^1.0.2"
+  },
+  "volta": {
+    "node": "18.20.4"
   }
 }
