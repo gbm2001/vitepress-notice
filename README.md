@@ -43,3 +43,5 @@ pnpm exec vitepress init
 ##
 
 修改 bat 脚本文件
+
+[一键跳转](https://gbm2001.github.io/vitepress-notice/)

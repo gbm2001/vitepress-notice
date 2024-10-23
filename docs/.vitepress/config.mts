@@ -14,7 +14,7 @@ import { nav, sidebar } from './relaConf';
 import mdItCustomAttrs from 'markdown-it-custom-attrs'; // 用来放大图片
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/vitepress-notes/',
+  base: '/vitepress-notice/',
   title: 'gbm666',
   lang: 'zh-CN',
   description: '2024年10月21日16:23:37',
