@@ -26,8 +26,6 @@ pnpm add vitepress -D
 pnpm exec vitepress init
 ```
 
-
-
 ```bash
 ├─ docs
 │  ├─ .vitepress
@@ -42,4 +40,6 @@ pnpm exec vitepress init
 
 浏览器访问 [http://localhost:5173](http://localhost:5173/)
 
-## 
+##
+
+修改 bat 脚本文件

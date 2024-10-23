@@ -14,7 +14,7 @@ lastUpdated: true
 hero:
   name: 'gbm666'
   text: '的学习笔记'
-  tagline: /斜杠青年/人间清醒/理工科/
+  tagline: /理工科/深漂/前端开发/
   image:
     # 首页右边的图片
     src: login.png

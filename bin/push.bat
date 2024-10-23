@@ -31,17 +31,24 @@ npm run build
 REM 进入生成的文件夹
 cd docs\.vitepress\dist
 
-REM 如果 .git 存在则跳过初始化
+REM 初始化 .git 仓库，拉取远程 gh-pages 分支
 if not exist ".git" (
     git init
+    git remote add origin git@github.com:gbm2001/vitepress-notes.git
 )
+
+REM 切换到 gh-pages 分支（创建本地 gh-pages 分支，如果不存在）
+git checkout -B gh-pages
+
+REM 拉取远程 gh-pages 分支的最新内容以避免冲突
+git pull origin gh-pages
 
 REM 添加并提交构建的文件
 git add -A
 git commit -m "deploy: %datetime%"
 
-REM 强制推送到 gh-pages 分支
-git push -f git@github.com:gbm2001/vitepress-notes.git main:gh-pages
+REM 推送到远程 gh-pages 分支
+git push -f origin gh-pages
 
 REM 返回到项目根目录
 cd %~dp0
