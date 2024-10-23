@@ -34,7 +34,7 @@ cd docs\.vitepress\dist
 REM 初始化 .git 仓库，拉取远程 gh-pages 分支
 if not exist ".git" (
     git init
-    git remote add origin git@github.com:gbm2001/vitepress-notes.git
+    git remote add origin git@github.com:gbm2001/vitepress-notice.git
 )
 
 REM 切换到 gh-pages 分支（创建本地 gh-pages 分支，如果不存在）
