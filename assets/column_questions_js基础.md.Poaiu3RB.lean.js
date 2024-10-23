@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./chunks/framework.DqyS5ajJ.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"column/questions/js基础.md","filePath":"column/questions/js基础.md"}'),o={name:"column/questions/js基础.md"};function n(a,c,r,i,_,m){return s(),t("div")}const l=e(o,[["render",n]]);export{d as __pageData,l as default};

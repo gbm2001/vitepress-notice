@@ -1,1 +1,0 @@
-import{_ as s,c as e,o as t}from"./chunks/framework.Ha0aP7Un.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"column/questions/css3.md","filePath":"column/questions/css3.md"}'),o={name:"column/questions/css3.md"};function c(n,a,r,i,m,p){return t(),e("div")}const l=s(o,[["render",c]]);export{d as __pageData,l as default};
