@@ -1,7 +1,7 @@
 @chcp 65001 >nul
 @echo off
 echo.
-echo [信息] 推送代码到 GitHub master 分支，并构建并推送静态文件到 gh-pages 分支。
+echo [信息] 推送代码到 GitHub main 分支，并构建并推送静态文件到 gh-pages 分支。
 echo.
 
 REM 切换到脚本所在盘符
@@ -31,18 +31,19 @@ npm run build
 REM 进入生成的文件夹
 cd docs\.vitepress\dist
 
-REM 初始化Git仓库
-git init
-git add -A
+REM 如果 .git 存在则跳过初始化
+if not exist ".git" (
+    git init
+)
 
-REM 提交构建的文件
+REM 添加并提交构建的文件
+git add -A
 git commit -m "deploy: %datetime%"
 
-REM 推送到GitHub仓库的gh-pages分支
+REM 强制推送到 gh-pages 分支
 git push -f git@github.com:gbm2001/vitepress-notes.git main:gh-pages
 
 REM 返回到项目根目录
 cd %~dp0
 
 pause
-
