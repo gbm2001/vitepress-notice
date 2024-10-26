@@ -17,7 +17,7 @@ hero:
   tagline: /理工科/深漂/前端开发/
   image:
     # 首页右边的图片
-    src: /images/PixPin_2024-10-23_18-36-40.png
+    src: logo2.png
     # 图片的描述
     alt: avatar
   # 按钮相关
