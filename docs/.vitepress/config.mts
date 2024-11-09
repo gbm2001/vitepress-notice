@@ -33,7 +33,8 @@ export default defineConfig({
     i18nRouting: true,
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-2024 GBM666',
+      copyright:
+        'Copyright © 2019-2024 <a href="https://blog.csdn.net/qq_51055690?spm=1018.2226.3001.5343" target="_blank">GBM666</a>',
     },
   },
   markdown: {
@@ -56,6 +57,20 @@ export default defineConfig({
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css',
       },
+    ],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' }],
+    // 谷歌
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=TAG_ID' }],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'TAG_ID');`,
     ],
     [
       'script',
