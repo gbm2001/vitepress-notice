@@ -47,6 +47,10 @@ features:
     title: 面试题
     details: html5，css3，js，vue
     link: /column/questions/
+  - icon: B站
+    title: B站签到云函数脚本
+    details: 需要用到阿里云函数
+    link: /Bilibili_Sign/index.md
 ---
 
 <!-- 自定义组件 -->
