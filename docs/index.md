@@ -35,10 +35,6 @@ features:
     title: Vue3
     details: vite5+vue3从0-1搭建
     link: /column/views/vite/
-  - icon: 📚
-    title: 微信小程序
-    details: 微信小程序从0-1搭建
-    link: /column/views/guide
   - icon: 📕
     title: project项目合集
     details: vue2，uniapp，微信小程序，项目展示
@@ -47,10 +43,10 @@ features:
     title: 面试题
     details: html5，css3，js，vue
     link: /column/questions/
-  - icon: B站
-    title: B站签到云函数脚本
-    details: 需要用到阿里云函数
-    link: /Bilibili_Sign/index.md
+  - icon: 📚
+    title: 签到脚本
+    details: 可能会用到阿里云函数、腾讯云函数、青龙面板或者docker
+    link: /SignIn/BiliBiliToolPro.md
 ---
 
 <!-- 自定义组件 -->
