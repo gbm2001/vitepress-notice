@@ -1,8 +1,8 @@
 /*
  * @Author: guo-bomin 2974463764@qq.com
  * @Date: 2024-01-16 16:56:07
- * @LastEditors: guo-bomin 2974463764@qq.com
- * @LastEditTime: 2024-05-15 15:10:36
+ * @LastEditors: gbm2001 2974463764@qq.com
+ * @LastEditTime: 2025-02-11 10:46:43
  * @FilePath: \vitepress-notice\docs\.vitepress\config.mts
  * @Description: 郭博民16670506200
  * 有问题微信同号询问，急事call我
@@ -20,9 +20,10 @@ export default defineConfig({
   description: '2024年10月21日16:23:37',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
     nav: nav,
     sidebar: sidebar,
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/gbm2001/vitepress-notice' }],
     outline: {
       level: [2, 6],
       label: '目录',
@@ -33,8 +34,7 @@ export default defineConfig({
     i18nRouting: true,
     footer: {
       message: 'Released under the MIT License.',
-      copyright:
-        'Copyright © 2019-2024 <a href="https://blog.csdn.net/qq_51055690?spm=1018.2226.3001.5343" target="_blank">GBM666</a>',
+      copyright: `Copyright © 2022-${new Date().getFullYear()} <a href="https://blog.csdn.net/qq_51055690?spm=1018.2226.3001.5343" target="_blank">GBM666</a>`,
     },
   },
   markdown: {
@@ -58,7 +58,7 @@ export default defineConfig({
         href: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css',
       },
     ],
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/vitepress-notice/favicon.png' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' }],

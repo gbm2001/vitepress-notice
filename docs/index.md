@@ -8,6 +8,7 @@ home: true
 # 官方文档相关配置：https://vitepress.dev/reference/default-theme-home-page
 title: gbm666-notice
 titleTemplate: 你又来看我了
+description: 简单、强大、快速。满足你一直想要的现代SSG框架
 editLink: true
 lastUpdated: true
 
@@ -39,7 +40,7 @@ features:
     title: project项目合集
     details: vue2，uniapp，微信小程序，项目展示
     link: /column/views/project/
-  - icon: 1
+  - icon: 📝
     title: 面试题
     details: html5，css3，js，vue
     link: /column/questions/
