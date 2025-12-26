@@ -13,9 +13,9 @@ editLink: true
 lastUpdated: true
 
 hero:
-  name: 'gbm666'
+  name: '郭博民'
   text: '的学习笔记'
-  tagline: /理工科/深漂/前端开发/
+  tagline: /深漂/前端开发/
   image:
     # 首页右边的图片
     src: /logo.png
